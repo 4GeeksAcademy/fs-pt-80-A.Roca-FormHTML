@@ -8,15 +8,15 @@
     <title>HTML-Form</title>
 </head>
 <body>
-  <div class="container">
+  <div class="container ">
     <!--HEADER-->
     <div class="card mt-5">
-      <div class="card-header">
+      <div class="card-header ">
         <h2>Payment form example</h2>
       </div>
       <!--VALIDATION-MESSAGE-->
       
-    <form class="row g-3 p-3 needs-validation" novalidate  col-md-12 >
+    <form class="row g-3 p-2  pb-0 needs-validation" novalidate  col-md-12 >
       <!--CARD - CVC# - AMOUNT-->
       <div class="col-md-12 mb-0 pb-0  ">
         <div class="alert alert-danger " >
@@ -46,12 +46,12 @@
          
       </div>
       <!--FIRST NAME - LAST NAME-->
-      <div class="col-6">
+      <div class="col-md-6">
         <label for="inputName" class="form-labe fw-semibold">First Name</label>
         <input type="text" class="form-control" id="inputName" placeholder="" required>
       </div>
-      <div class="col-6">
-        <label for="inputSurname" class="form-label fw-semibold">Last Name</label>
+      <div class="col-md-6">
+        <label for="inputSurname" class="form-label fw-semibold mb-0">Last Name</label>
         <input type="text" class="form-control" id="inputSurname" placeholder="" required>
       </div>
       <!--CITY - STATE - POSTAL CODE-->
@@ -63,7 +63,7 @@
         <label for="inputState" class="form-label fw-semibold">State</label>
         <select id="inputState" class="form-select" required>
           <option selected >Pick a state</option>
-          <option >Spain</option>
+          <option >Bolivia</option>
           <option >Portugal</option>
           <option >Italy</option>
           <option >Greece</option>
